@@ -1,17 +1,6 @@
 {
   "description": "决策等待弹窗通知：会话等待用户决策时弹 Windows toast 提示。",
   "hooks": {
-    "SessionStart": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"${CLAUDE_PLUGIN_ROOT}/scripts/setup-aumid.ps1\"",
-            "timeout": 15
-          }
-        ]
-      }
-    ],
     "Notification": [
       {
         "hooks": [

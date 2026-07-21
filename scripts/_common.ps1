@@ -4,7 +4,7 @@
 $script:NotifyDataDir = Join-Path $env:LOCALAPPDATA 'claude-notify'
 $script:LocksDir      = Join-Path $script:NotifyDataDir 'locks'
 $script:LogFile       = Join-Path $script:NotifyDataDir 'debug.log'
-$script:Aumid         = 'ClaudeCode.Notify'
+$script:Aumid         = '{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\powershell.exe'
 $script:ToastGroup    = 'claude-notify'
 
 function Ensure-NotifyDirs {
