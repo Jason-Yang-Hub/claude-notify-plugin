@@ -1,0 +1,15 @@
+{
+  "name": "claude-notify",
+  "version": "1.0.0",
+  "description": "会话等待用户决策时在 Windows 右下角弹出原生 toast 提示（权限确认 / 提问 / 计划待批），支持多会话并行、逐条排队、单条关闭、自动清理残留。",
+  "author": {
+    "name": "cos_pc"
+  },
+  "keywords": [
+    "notification",
+    "toast",
+    "windows",
+    "hooks",
+    "multi-session"
+  ]
+}

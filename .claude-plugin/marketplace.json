@@ -1,0 +1,18 @@
+{
+  "name": "claude-notify-marketplace",
+  "description": "Windows 决策等待弹窗通知插件",
+  "owner": {
+    "name": "cos_pc"
+  },
+  "plugins": [
+    {
+      "name": "claude-notify",
+      "description": "会话等待用户决策时在 Windows 右下角弹出原生 toast 提示。",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "cos_pc"
+      }
+    }
+  ]
+}

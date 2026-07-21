@@ -1,0 +1,2 @@
+# 运行时数据不入库（位于 %LOCALAPPDATA%\claude-notify，本仓库内无产物）
+*.bak-*
